@@ -1,0 +1,7 @@
+
+services:
+  server:
+    image: golang:1.23.1-bookworm
+    command: tail -f /dev/null
+    volumes:
+      - ./:/app
